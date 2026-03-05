@@ -1,10 +1,10 @@
-# Universal Queue + Sentinel + Universal EventSourcing + Evidence-First
+# Universal Queue + security2you + Universal EventSourcing + Evidence-First
 
 ## A Convergência: Segurança Autônoma por Design
 
 ### Visão Geral
 
-A união do **Universal Queue** com o **Sentinel** (Agent Zero Trust), **Universal EventSourcing** e **Evidence-First** cria um ecossistema onde **canais e agentes seguros são gerados automaticamente**, sem que o desenvolvedor precise invocar explicitamente chamadas de segurança. A proteção máxima torna-se um *efeito colateral inevitável* da arquitetura, não uma feature opcional.
+A união do **Universal Queue** com o **security2you** (Agent Zero Trust), **Universal EventSourcing** e **Evidence-First** cria um ecossistema onde **canais e agentes seguros são gerados automaticamente**, sem que o desenvolvedor precise invocar explicitamente chamadas de segurança. A proteção máxima torna-se um *efeito colateral inevitável* da arquitetura, não uma feature opcional.
 
 ---
 
@@ -17,7 +17,7 @@ A união do **Universal Queue** com o **Sentinel** (Agent Zero Trust), **Univers
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐              │
-│  │   SENTINEL   │    │   EVENT      │    │  EVIDENCE    │              │
+│  │   security2you   │    │   EVENT      │    │  EVIDENCE    │              │
 │  │  Zero-Trust  │ +  │  Sourcing    │ +  │   First      │              │
 │  │  Security    │    │  Persistence │    │  Audit Trail │              │
 │  └──────────────┘    └──────────────┘    └──────────────┘              │
@@ -54,7 +54,7 @@ await agent.enableEvidenceChain();  // 5. Esqueceu? Sem prova legal
 // Se esquecer UM sequer → VULNERABILIDADE CRÍTICA
 ```
 
-### A Abordagem Universal Queue + Sentinel
+### A Abordagem Universal Queue + security2you
 
 ```typescript
 // ✅ ABORDAGEM UNIVERSAL QUEUE (Segurança automática)
@@ -327,7 +327,7 @@ class UniversalQueue {
 
 ```typescript
 import { UniversalQueue } from '@vibe2founder/universal-queue';
-import { SentinelConfig } from '@vibe2founder/sentinel';
+import { security2youConfig } from '@vibe2founder/security2you';
 
 // ÚNICA configuração necessária
 const healthcareQueue = new UniversalQueue({
@@ -449,7 +449,7 @@ SEGURANÇA EXPLÍCITA (Tradicional)
         └─→ Bugs humanos são INEVITÁVEIS
             └─→ Sistema é INSEGURO por design
 
-SEGURANÇA IMPLÍCITA (Universal Queue + Sentinel)
+SEGURANÇA IMPLÍCITA (Universal Queue + security2you)
 └─→ Segurança é ATIVADA POR PADRÃO
     └─→ Desenvolvedor NÃO PODE esquecer
         └─→ Segurança é INEVITÁVEL
@@ -593,7 +593,7 @@ const autonomousAgent = queue.createAgent({
 
 ## 📝 Conclusão
 
-A convergência **Universal Queue + Sentinel + Universal EventSourcing + Evidence-First** representa um **paradigma shift** na segurança de software:
+A convergência **Universal Queue + security2you + Universal EventSourcing + Evidence-First** representa um **paradigma shift** na segurança de software:
 
 1. **Segurança deixa de ser um feature** → Torna-se um *efeito colateral inevitável*
 2. **Desenvolvedor para de "fazer segurança"** → Foca em *regra de negócio*
@@ -606,7 +606,7 @@ A convergência **Universal Queue + Sentinel + Universal EventSourcing + Evidenc
 
 ### A Promessa
 
-> *"Se você está usando Universal Queue + Sentinel, seu sistema já nasceu mais seguro que 99% dos sistemas no mercado. E você não precisou escrever uma única linha de código de segurança."*
+> *"Se você está usando Universal Queue + security2you, seu sistema já nasceu mais seguro que 99% dos sistemas no mercado. E você não precisou escrever uma única linha de código de segurança."*
 
 ---
 

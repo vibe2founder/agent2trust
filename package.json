@@ -1,5 +1,5 @@
 {
-  "name": "@vibe2founder/sentinel",
+  "name": "@vibe2founder/security2you",
   "version": "0.1.0",
   "description": "Zero-Trust security architecture for autonomous AI agents. Implements tri-layered defense: mTLS, Signal Protocol E2EE, and DPoP authorization.",
   "main": "dist/index.js",
@@ -74,11 +74,11 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vibe2founder/sentinel.git"
+    "url": "https://github.com/vibe2founder/security2you.git"
   },
-  "homepage": "https://github.com/vibe2founder/sentinel#readme",
+  "homepage": "https://github.com/vibe2founder/security2you#readme",
   "bugs": {
-    "url": "https://github.com/vibe2founder/sentinel/issues"
+    "url": "https://github.com/vibe2founder/security2you/issues"
   },
   "engines": {
     "node": ">=18.0.0"

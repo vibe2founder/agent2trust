@@ -1,5 +1,5 @@
 /**
- * @vibe2founder/sentinel
+ * @vibe2founder/security2you
  * 
  * Biblioteca de segurança para agentes autônomos de IA
  * Implementa arquitetura Zero-Trust tri-camada:
@@ -7,7 +7,7 @@
  * - Signal Protocol (Double Ratchet) para E2EE
  * - DPoP (RFC 9449) para autorização contextual
  * 
- * @package @vibe2founder/sentinel
+ * @package @vibe2founder/security2you
  * @version 0.1.0
  * @license Apache-2.0
  */
@@ -508,4 +508,4 @@ export {
 // ============================================================================
 
 export const VERSION = '0.1.0';
-export const LIBRARY_NAME = '@vibe2founder/sentinel';
+export const LIBRARY_NAME = '@vibe2founder/security2you';

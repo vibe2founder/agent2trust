@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "Sentinel Security API",
+    "title": "security2you Security API",
     "description": "Zero-Trust security architecture for autonomous AI agents. Implements tri-layered defense: mTLS, Signal Protocol E2EE, and DPoP authorization.",
     "version": "0.1.0",
     "contact": {
@@ -15,7 +15,7 @@
   },
   "servers": [
     {
-      "url": "https://auth.sentinel.vibe2founder.com",
+      "url": "https://auth.security2you.vibe2founder.com",
       "description": "Production Token Authority"
     }
   ],
