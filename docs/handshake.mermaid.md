@@ -1,11 +1,11 @@
 sequenceDiagram
     autonumber
     participant AA as Agente A (Iniciador)
-    participant SA as security2you Core (A)
+    participant SA as agent2trust Core (A)
     participant MA as Módulos (semantic, auth, crypto) (A)
     participant Net as Rede (Insegura)
     participant MB as Módulos (crypto, auth) (B)
-    participant SB as security2you Core (B)
+    participant SB as agent2trust Core (B)
     participant AB as Agente B (Receptor)
 
     Note over AA, AB: FASE 1: Preparação da Identidade e Prova de Posse (DPoP)

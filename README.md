@@ -1,18 +1,18 @@
-# 📡 security2you: O Escudo Determinístico para a Era dos Agentes
+# 📡 agent2trust: O Escudo Determinístico para a Era dos Agentes
 
 > **"A melhor maneira de prever o futuro é construí-lo com segurança."**
 
-Seja bem-vindo ao **security2you**. Se você está lendo isso, você não é apenas um aluno; você é um **Arquiteto de Sistemas Autônomos** em um momento crucial da história da computação. Estamos saindo da era dos "scripts que rodam" para a era dos "agentes que decidem".
+Seja bem-vindo ao **agent2trust**. Se você está lendo isso, você não é apenas um aluno; você é um **Arquiteto de Sistemas Autônomos** em um momento crucial da história da computação. Estamos saindo da era dos "scripts que rodam" para a era dos "agentes que decidem".
 
 E essa transação exige um novo nível de responsabilidade: **Segurança Determinística**.
 
 ---
 
-## 🌌 Por que o security2you existe?
+## 🌌 Por que o agent2trust existe?
 
 O mundo dos agentes de IA é um "Velho Oeste" digital. Agentes precisam conversar entre si, transacionar valores e tomar decisões críticas. Mas como garantir que um agente é quem diz ser? Como garantir que ninguém interceptou sua linhagem de pensamento?
 
-O security2you nasceu para fundir quatro pilares de elite da stack `@purecore` em uma única armadura:
+O agent2trust nasceu para fundir quatro pilares de elite da stack `@purecore` em uma única armadura:
 
 1. **🛡️ Agent-Zero-Trust**: Canal criptográfico inquebrável (Signal Protocol).
 2. **👁️ One-EventSourcing-4-All**: Memória imutável. Cada ação gera uma prova.
@@ -23,11 +23,11 @@ O security2you nasceu para fundir quatro pilares de elite da stack `@purecore` e
 
 ## 🧠 O que você vai aprender aqui?
 
-Ao estudar e contribuir com o security2you, você vai dominar conceitos que 99% dos desenvolvedores apenas ouviram falar:
+Ao estudar e contribuir com o agent2trust, você vai dominar conceitos que 99% dos desenvolvedores apenas ouviram falar:
 
 ### 1. Criptografia de Elite (Double Ratchet)
 
-Você vai entender como o Signal (WhatsApp) protege bilhões de pessoas. O security2you rotaciona chaves a cada mensagem. Se uma chave for roubada, ela não serve para nada na próxima mensagem. Isso é **Perfect Forward Secrecy**.
+Você vai entender como o Signal (WhatsApp) protege bilhões de pessoas. O agent2trust rotaciona chaves a cada mensagem. Se uma chave for roubada, ela não serve para nada na próxima mensagem. Isso é **Perfect Forward Secrecy**.
 
 ### 2. Antifragilidade Arquitetural
 
@@ -51,7 +51,7 @@ bun i # bun install
 
 ### Passo 2: Verificando a Verdade (Testes)
 
-No security2you, a única verdade é o teste passando:
+No agent2trust, a única verdade é o teste passando:
 
 ```bash
 bun test
@@ -71,7 +71,7 @@ Não apenas copie e cole. **Questione.**
 - Como o `EventSourcingProxy` consegue interceptar chamadas sem que o agente perceba?
 - Como você pode implementar uma nova funcionalidade seguindo os princípios de **Object Calisthenics** (sem `else`, sem indentação excessiva)?
 
-O security2you é um projeto **Antifrágil**. Ele cresce com a sua curiosidade.
+O agent2trust é um projeto **Antifrágil**. Ele cresce com a sua curiosidade.
 
 ---
 

@@ -121,7 +121,7 @@ interface EventEnvelope<T> {
 ### Uso
 
 ```typescript
-import { createEventEnvelope } from '@vibe2founder/security2you';
+import { createEventEnvelope } from '@vibe2founder/agent2trust';
 
 // Forma simples
 const envelope = createEventEnvelope({
@@ -137,7 +137,7 @@ const envelope = createEventEnvelope({
 });
 
 // Forma detalhada (com builder)
-import { EventEnvelopeBuilder } from '@vibe2founder/security2you';
+import { EventEnvelopeBuilder } from '@vibe2founder/agent2trust';
 
 const envelope = new EventEnvelopeBuilder()
   .setEventType('payment.processed')
@@ -271,7 +271,7 @@ const encrypted = await eventSourcedAgent.sendMessage('bob', 'hello');
 ### Configuração
 
 ```typescript
-import { createEventSourcingProxy, InMemoryEventStore } from '@vibe2founder/security2you';
+import { createEventSourcingProxy, InMemoryEventStore } from '@vibe2founder/agent2trust';
 
 // EventStore (persistência)
 const eventStore = new InMemoryEventStore();
@@ -584,7 +584,7 @@ import {
   TokenAuthority,
   createEventSourcingProxy,
   InMemoryEventStore,
-} from '@vibe2founder/security2you';
+} from '@vibe2founder/agent2trust';
 
 async function main() {
   // 1. Setup

@@ -27,12 +27,12 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - **SignalE2EEAgent**: `establishSession` agora retorna a chave pública efêmera necessária para o handshake, alinhando-se com o protocolo Signal real.
 - **Testes**: Suíte de testes atualizada para cobrir o fluxo completo de troca de chaves e correção de regressões.
 
-## [0.1.0] - 2026-02-27 (security2you Rebranding)
+## [0.1.0] - 2026-02-27 (agent2trust Rebranding)
 
 ### Added
-- **Rebranding**: Projeto renomeado para `@vibe2founder/security2you`.
+- **Rebranding**: Projeto renomeado para `@vibe2founder/agent2trust`.
 - **Nominal Typing**: Implementação de Tipagem Semântica Nominal (Branding) para tipos críticos (`AgentId`, `ConversationId`, `JWT`, etc.).
-- **OpenAPI Schema**: Adicionado `openapi.json` descrevendo a API de Segurança do security2you.
+- **OpenAPI Schema**: Adicionado `openapi.json` descrevendo a API de Segurança do agent2trust.
 - **Swagger Documentation**: Adicionado `docs/swagger.html` para visualização interativa da API.
 - **Antifragilidade**: Refatoração de classes centrais para seguir princípios de Object Calisthenics e Antifragilidade.
 - **EventSourcing & Observabilidade**: Adicionados `EventEnvelope` e `EventSourcingProxy` para rastreabilidade automática.

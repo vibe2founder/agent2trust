@@ -1,5 +1,5 @@
 {
-  "name": "@vibe2founder/security2you",
+  "name": "@vibe2founder/agent2trust",
   "version": "0.1.2",
   "description": "Zero-Trust security architecture for autonomous AI agents. Implements tri-layered defense: mTLS, Signal Protocol E2EE, and DPoP authorization.",
   "main": "dist/index.js",
@@ -74,11 +74,11 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vibe2founder/security2you.git"
+    "url": "https://github.com/vibe2founder/agent2trust.git"
   },
-  "homepage": "https://github.com/vibe2founder/security2you#readme",
+  "homepage": "https://github.com/vibe2founder/agent2trust#readme",
   "bugs": {
-    "url": "https://github.com/vibe2founder/security2you/issues"
+    "url": "https://github.com/vibe2founder/agent2trust/issues"
   },
   "engines": {
     "node": ">=18.0.0"

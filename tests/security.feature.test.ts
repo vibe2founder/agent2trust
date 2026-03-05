@@ -1,5 +1,5 @@
 /**
- * Especificação BDD - Comunicação Segura entre Agentes (@purecore/security2you)
+ * Especificação BDD - Comunicação Segura entre Agentes (@purecore/agent2trust)
  */
 
 import { Feature, Scenario, Given, When, Then } from '../packages/one-proof-4-all';

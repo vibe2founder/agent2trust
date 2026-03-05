@@ -251,7 +251,7 @@ Documento completo com:
 import {
   createEventSourcingProxy,
   InMemoryEventStore,
-} from '@vibe2founder/security2you';
+} from '@vibe2founder/agent2trust';
 ```
 
 ### 2. Configurar
@@ -297,12 +297,12 @@ console.log(events);
 
 ---
 
-## 🔗 Integração com Universal Queue + security2you
+## 🔗 Integração com Universal Queue + agent2trust
 
 Este módulo é a peça fundamental para a visão de **segurança automática** descrita no manifesto:
 
 ```
-Universal Queue + security2you + EventSourcing + Evidence-First
+Universal Queue + agent2trust + EventSourcing + Evidence-First
                             ↓
             EventEnvelope + EventSourcingProxy
                             ↓
@@ -329,7 +329,7 @@ Universal Queue + security2you + EventSourcing + Evidence-First
 | `src/index.ts` | Modificado | Exportações dos novos módulos |
 | `src/examples/event-sourcing-proxy-example.ts` | Criado | Exemplo de uso completo |
 | `docs/EVENT-ENVELOPE-AND-PROXY.md` | Criado | Documentação completa |
-| `docs/UNIVERSAL-QUEUE-security2you-MANIFESTO.md` | Criado | Manifesto da visão |
+| `docs/UNIVERSAL-QUEUE-agent2trust-MANIFESTO.md` | Criado | Manifesto da visão |
 | `src/auth/index.ts` | Modificado | Correção do generateKeyPair |
 
 ---
