@@ -5,6 +5,14 @@ Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e este projeto adere ao [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Release] v0.1.2 - 2026-03-05 (Testes BDD e Infraestrutura Local)
+
+### What's Changed
+- [x] **one-proof-4-all**: Implementada biblioteca local de BDD em `packages/` para garantir antifragilidade.
+- [x] **BDD Testing**: Criada suite `tests/security.feature.test.ts` com especificações para Signal E2EE, DPoP e mTLS.
+- [x] **Relatórios**: Adicionado suporte a relatórios de sessão em `/reports`.
+- [x] **Tipagem**: Refatoração dos testes para uso rigoroso de Branding (Nominal Typing).
+
 ## [0.1.1] - 2026-02-27 (Estabilização e Testes)
 
 ### Fixed

@@ -1,6 +1,6 @@
 {
   "name": "@vibe2founder/security2you",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Zero-Trust security architecture for autonomous AI agents. Implements tri-layered defense: mTLS, Signal Protocol E2EE, and DPoP authorization.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

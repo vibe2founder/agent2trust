@@ -35,7 +35,7 @@ Aqui não usamos `console.log` para "ver se funciona". Usamos **Evidências**. O
 
 ### 3. Tipagem Semântica Nominal
 
-Você vai aprender a usar o TypeScript para blindar o domínio. Esqueça strings soltas. Um `AgentId` é um `AgentId`. O compilador é seu melhor auditor de segurança.
+Você vai aprender a usar o TypeScript para blindar o domínio. Esqueça strings soltas. Um `AgentId` é um `AgentId` ele não aceita um `ProductId`. O compilador é seu melhor auditor de segurança.
 
 ---
 
