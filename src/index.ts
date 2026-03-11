@@ -453,6 +453,19 @@ export const AuthUtils = {
 };
 
 // ============================================================================
+// Security Audit Library
+// ============================================================================
+
+export type {
+  SecurityCheckResult,
+  SecurityAuditReport,
+} from './security/security-audit';
+
+export {
+  runFullSecurityAudit,
+} from './security/security-audit';
+
+// ============================================================================
 // EventSourcing & Observability
 // ============================================================================
 
